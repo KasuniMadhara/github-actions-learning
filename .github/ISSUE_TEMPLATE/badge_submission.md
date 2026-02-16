@@ -1,7 +1,7 @@
 ---
-name: 🎖️ Badge Submission
+name:  🎖️ Badge Submission
 about: Submit your completed tasks for badge review
-title: "🎖️ Badge Submission - [Your Name]"
+title: "🎖️ Badge Submission - [Kasuni Madhara Wijerathna]"
 labels: ['submission', 'pending-review']
 assignees: ['nisalgunawardhana']
 ---
@@ -16,24 +16,23 @@ assignees: ['nisalgunawardhana']
 
 Type your level (type exactly as shown):
 - Type: **beginner** (Tasks 1-3)
-- Type: **intermediate** (Tasks 4-7)  
-- Type: **advanced** (Tasks 8-10)
+
 
 **My Level:** 
 
----
+- Type: **beginner** (Tasks 1-3)
 
 ## 👤 Your Information
 
-**GitHub Username:** @[your-username]
+**GitHub Username:** @[KasuniMadhara]
 
-**Contact Email (for updates):** you@example.com
+**Contact Email (for updates):** kasuniwijerathna2003@gmail.com
 
-**PR Link:** [Paste your pull request URL]
+**PR Link:** [https://github.com/pulls]
 
-**Branch Name:** working-[level]-[yourname]
+**Branch Name:** working-[beginner]-[Kasuni]
 
-**Submission File:** .github/submissions/[level]-[yourname].md
+**Submission File:** .github/submissions/[begirner]-[Kasuni].md
 
 ---
 
@@ -41,11 +40,11 @@ Type your level (type exactly as shown):
 
 Before submitting, confirm:
 
-- [ ] I have completed ALL tasks for my level
-- [ ] I have created the submission file in `.github/submissions/`
-- [ ] I have created a Pull Request
-- [ ] I have added evidence/screenshots to my submission
-- [ ] I have read the [README.md](README.md)
+- [ yes] I have completed ALL tasks for my level
+- [ yes] I have created the submission file in `.github/submissions/`
+- [ yes] I have created a Pull Request
+- [ yes] I have added evidence/screenshots to my submission
+- [ yes] I have read the [README.md](README.md)
 
 ---
 
