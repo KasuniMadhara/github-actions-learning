@@ -19,3 +19,13 @@ cd sample-app
 npm install
 npm test
 npm start
+
+
+---
+
+## 3️⃣ Mark the conflict as resolved
+
+```bat
+git add .github/submissions/beginner-Kasuni.md
+git add -f sample-app/package-lock.json
+git add .github/workflows/build-test.yml
