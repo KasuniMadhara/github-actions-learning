@@ -14,6 +14,10 @@ jobs:
   build-and-test:
     name: Build and Test
     runs-on: ubuntu-latest
+
+    env:
+      NODE_ENV: test
+      LOG_LEVEL: debug
     
     strategy:
       matrix:
@@ -46,6 +50,11 @@ jobs:
       - name: Run tests
         working-directory: ./sample-app
         run: npm test
+
+      - name: Print environment
+        run: |
+          echo "Environment: ${{ env.NODE_ENV }}"
+          echo "Log Level: ${{ env.LOG_LEVEL }}"
       
       - name: Upload coverage reports
         if: matrix.node-version == '18.x'
